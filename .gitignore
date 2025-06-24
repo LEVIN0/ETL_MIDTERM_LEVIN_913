@@ -1,0 +1,26 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environments (if any)
+venv/
+env/
+
+# Ignore data files you don't want to share
+*.db
+*.parquet
+
+# Ignore temporary or backup files
+*.bak
+*.tmp
+*.log
+
+# Ignore any secrets or config files (if used)
+*.env
