@@ -5,7 +5,7 @@ This ETL project extracts raw and incremental sales data, applies transformation
 screenshots are added to allow visualization of the codes used and their respective outputs 
 
 ## 🧪 ETL Phases
--### **Extract**: Loaded and inspected raw/incremental data, checked for missing values and duplicates.
+## **Extract**: Loaded and inspected raw/incremental data, checked for missing values and duplicates.
 - ![image](https://github.com/user-attachments/assets/88d29bd5-3817-4472-b6b5-ffc81aa97d1f)
 - ![image](https://github.com/user-attachments/assets/99b7476a-de0e-4e17-92f2-b2cd03770ac1)
 - this shows the loaded datasets given and their top values
