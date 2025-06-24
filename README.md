@@ -5,7 +5,7 @@ This ETL project extracts raw and incremental sales data, applies transformation
 screenshots are added to allow visualization of the codes used and their respective outputs 
 
 ## 🧪 ETL Phases
-### **Extract**:
+## **Extract**:
 -Loaded and inspected raw/incremental data, checked for missing values and duplicates.
 - ![image](https://github.com/user-attachments/assets/88d29bd5-3817-4472-b6b5-ffc81aa97d1f)
 - ![image](https://github.com/user-attachments/assets/99b7476a-de0e-4e17-92f2-b2cd03770ac1)
@@ -16,7 +16,7 @@ screenshots are added to allow visualization of the codes used and their respect
 - ![image](https://github.com/user-attachments/assets/9947435b-cb78-41c3-92b1-4289d68f68cf)
 - we were also able to see that their were some missing values and duplicates in the datasets that we were able to handle in the transformation stage
   
-### **Transform**: 
+## **Transform**: 
 -Cleaned nulls, removed duplicates, added a `total_price` column and a `customer_type` column, and converted date fields.
 - we started by handling the missing values
 - ![image](https://github.com/user-attachments/assets/af035f94-5d5e-4416-8dc2-3f23eb1fbd4e)
@@ -41,12 +41,13 @@ screenshots are added to allow visualization of the codes used and their respect
 - ![image](https://github.com/user-attachments/assets/6fdca40b-9796-4cd8-95b3-06aeee2438b6)
 - ![image](https://github.com/user-attachments/assets/63b1b246-7512-49af-98b0-0a6816655c56)
 - l was able to see that the column called `order_date` in both the datasets were of type object which l was able to change into datetime format so that it can help in the date-time analysis
-- ## Categorization
+- ### Categorization
 - ![image](https://github.com/user-attachments/assets/91028cb8-7b78-43cf-bc75-e405a8f67086)
 - ![image](https://github.com/user-attachments/assets/59ba9818-4c35-4dd8-9651-4d1a6621dab3)
 - l was able to add another column called `customer_type` which is used to classify customers based on how much they have spent. Customers who have spent >1000 are classified as VIP and those who have spent less are Regulars. This allows the shop to know who to give discounts in the future
   
- ### **Load**: Stored data into Parquet databases and previewed results.
+ ## **Load**:
+-Stored data into Parquet databases and previewed results.
 - ![image](https://github.com/user-attachments/assets/0f64167c-32ec-4479-bb33-de52beaafe69)
 - l was able to load the transformed data using parquet which is in the pandas library and saved it in the loaded folder
 - ![image](https://github.com/user-attachments/assets/ab436ebd-26cc-4ff9-811b-14c9a7308311)
